@@ -9,3 +9,10 @@ The build_features file will create a set of input features in the percentage an
 For the compressed feature dictionary or access to a google drive/ colab environment, mail as14634@nyu.edu. 
 
 The notebooks will demonstrate the creation, training and evaluation of models for the %/partitive tasks. We experiment with adaboost and logisitic regression.    
+
+We use the following heuristic paths which correlate with ARG1, for some given word in association with a noun predicate. 
+
+(1) If the path is from the support verb to a preceding ARG1, use the path ↑S↓NP↓Noun.
+(2) For the path from the support verb to a following ARG1, use ↑VP↓NP↓Noun.
+(3) From a predicate noun to a preceding ARG1 (with no support verb), use ↑NP↓NP.
+(4) For paths from a predicate noun to a following ARG1, derive the path from the sequence of BIO tags from the predicate noun to the ARG1.

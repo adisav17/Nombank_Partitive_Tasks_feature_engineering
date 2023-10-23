@@ -16,3 +16,6 @@ We use the following heuristic paths which correlate with ARG1, for some given w
 (2) For the path from the support verb to a following ARG1, use ↑VP↓NP↓Noun.
 (3) From a predicate noun to a preceding ARG1 (with no support verb), use ↑NP↓NP.
 (4) For paths from a predicate noun to a following ARG1, derive the path from the sequence of BIO tags from the predicate noun to the ARG1.
+
+As an example, we elaborate on heuristic (1).
+Consider every word w_j in a given input sentence S[w_1,..,w_n] with an output label ARG1 for word w_i and support verb w_s.  If i<s,and if the path P from w_s to w_j is ↑S↓NP↓Noun, then, we estimate j to be having a high likelihood of being i.    

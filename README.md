@@ -1,6 +1,6 @@
 # Nombank_partitive_tasks
 
-This project is a extension of work done on Nominal Semantic Role Labeling as part of an NLP class project at NYU under Prof. Adam Meyers. 
+This project is part of work done on Nominal Semantic Role Labeling at NYU under Prof. Adam Meyers. 
 
 
 We incorpate parse tree based heuristic path features and evaluate their ulity in the prediction of semantic role labels for Nombank.

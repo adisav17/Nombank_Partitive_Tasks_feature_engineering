@@ -3,8 +3,6 @@
 This project is part of work done on Nominal Semantic Role Labeling at NYU under Prof. Adam Meyers. 
 
 
-We incorpate parse tree based heuristic path features and evaluate their ulity in the prediction of semantic role labels for Nombank.
-
 The build_features file will create a set of input features in the percentage and part folders. We will add parse tree based features and heuristic based features to enhance our input space. 
 For the compressed feature dictionary or access to a google drive/ colab environment, please mail as14634@nyu.edu. 
 
